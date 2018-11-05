@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(to right, #7b4397, #dc2430);
+}
+
+#root .header {
+  font-family: 'VT323', monospace;
+  display: inline;
+  text-align: center;
+}
+.header h1 {
+  font-size: 5rem;
+  cursor: default;
+}
+
+.profilephoto img{
+  width: 10rem;
+  height: 10rem;
+  border-style: double;
+  border-radius: 50%;
+  border-color: white;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 20px white;
+}
+.profilephoto #left {
+  font-family: monospace;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 7rem;
+  margin-top: -7rem;
+}
+.profilephoto #right {
+  font-family: monospace;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-left: 21.5rem;
+  margin-top: -7rem;
+}
+
+._profile {
+  border-style: groove;
+  border-color: #f97199;
+  box-shadow: 2px 2px 15px #ff9999;
+  width: 30rem;
+  height: 57rem;
+  margin-left: 33rem;
+}
+
+.profileinfo {
+  margin-top: 5rem;
+  cursor: default;
+}
+.profileinfo p{
+  font-family: 'VT323', monospace;
+  font-size: 2rem;
+  line-height: 5rem;
+  margin-left: 1rem;
+  text-align: left;
+}
+.profileinfo input {
+  font-family: 'VT323', monospace;
+  font-size: 1.3rem;
+  width: 15rem;
+}
+
+._profile button {
+  width: 7rem;
+  height: 3rem;
+  margin-left: 11.5rem;
+  border-radius: 1.5rem;
+  font-family: 'VT323', monospace;
+  font-size: 2rem;
+  box-shadow: 2px 2px 3px #ff6666;
+}
+._profile button:hover {
+  background-color: #e4b4cd;
+  transition: 0.3s;
+  cursor: pointer;
+}
+._profile button:active {
+  color: white;
+  margin-top: 0.2rem;
+  box-shadow: 2px 5px 10px #ffff99;
+}
+
+.profilephoto #left:hover {
+  cursor: pointer;
+}
+.profilephoto #right:hover {
+  cursor: pointer;
+}
